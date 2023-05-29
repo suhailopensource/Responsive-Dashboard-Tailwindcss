@@ -1219,9 +1219,26 @@ const dashboard = () => {
           <div class="rounded-lg  h-70 mb-4">
             <Cards1 />
           </div>
-          <div class="flex justify-between rounded-lg  h-96 mb-4 gap-x-5">
-            <Cards2 />
-            <Cards3 />
+          {/* <div class="flex justify-between rounded-lg  h-96 mb-4 gap-x-5">
+          
+          </div> */}
+          {/* <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="rounded-lg  h-48 md:h-72">
+              <Cards2 />
+            </div>
+            <div class="rounded-lg h-48 md:h-72">
+           
+              <Cards3 />
+            </div>
+          </div> */}
+          <div class="grid grid-cols- sm:grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+            <div class="rounded-lg">
+              <Cards2 />
+            </div>
+            <div class=" rounded-lg">
+              {" "}
+              <Cards3 />
+            </div>
           </div>
         </main>
       </div>

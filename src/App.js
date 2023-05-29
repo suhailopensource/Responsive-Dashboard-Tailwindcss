@@ -3,7 +3,7 @@ import Dashboard from "./components/dashboard";
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       <Dashboard />
     </div>
   );
